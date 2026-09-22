@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.37411.7 d17.14
+VisualStudioVersion = 17.14.37411.7
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "ecommerceappmorning.client", "ecommerceappmorning.client\ecommerceappmorning.client.esproj", "{240620C4-D5A7-C1A6-28DF-80D78624710D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerceAppMorning.Server", "ECommerceAppMorning.Server\ECommerceAppMorning.Server.csproj", "{F69C73D9-9248-4292-B290-306EEDD224CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerceAppMorning.Tests", "ECommerceAppMorning.Tests\ECommerceAppMorning.Tests.csproj", "{EDB0A8D2-EC91-4132-ACF8-F5DF0723307A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,6 +25,10 @@ Global
 		{F69C73D9-9248-4292-B290-306EEDD224CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F69C73D9-9248-4292-B290-306EEDD224CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F69C73D9-9248-4292-B290-306EEDD224CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDB0A8D2-EC91-4132-ACF8-F5DF0723307A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDB0A8D2-EC91-4132-ACF8-F5DF0723307A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDB0A8D2-EC91-4132-ACF8-F5DF0723307A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDB0A8D2-EC91-4132-ACF8-F5DF0723307A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
